@@ -19,6 +19,7 @@ struct GameResult: Codable, Identifiable {
     let playtime: Int
     let metacritic: Int
     
+    
     enum CodingKeys: String, CodingKey {
         case id
         case name
